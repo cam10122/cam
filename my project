@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal Brochure</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff4e50, #ff7676, #ffaf7b, #ffcf85); /* Valentine's Day gradient */
+            background-size: cover;
+            position: relative;
+        }
+        header {
+            background-color: #ff3366; /* Pink color for Valentine's Day */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Cool font */
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: justify;
+            background-color: rgba(255, 255, 255, 0.7); /* White background color with opacity */
+            border-radius: 10px;
+            position: relative;
+            z-index: 1; /* Ensure content is on top of background hearts */
+        } 
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .images {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .image-container {
+            width: calc(33.33% - 10px); /* Set width for each image container */
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%; /* Make all images the same size */
+            height: auto;
+            border-radius: 5px;
+        }
+        p {
+            font-weight: bold; /* Make all paragraphs bold */
+        }
+
+        /* Heart animation */
+        .heart {
+            width: 20px;
+            height: 20px;
+            background-image: url('https://emojicdn.elk.sh/❤️');
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: -20px;
+            animation: heart-fall 5s infinite linear;
+            opacity: 0.7;
+        }
+
+        @keyframes heart-fall {
+            0% {
+                transform: translateY(-10vh) rotate(0deg);
+            }
+            100% {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Valentine’s Day my love</h1>
+    </header>
+    <section>
+        <div class="container">
+            <p><strong>Dear Emma,</strong></p>
+            <p>Your heart could shine light through the infinite void of the universe. Please allow me to embrace it with you on this Valentine’s Day.</p>
+            <p>I LOVE YOU!!!!</p>
+            <div class="images">
+                <div class="image-container">
+                    <img src="picture 1.jpg" alt="Proposal Image 1"> <!-- Adjusted image src -->
+                </div>
+                <div class="image-container">
+                    <img src="picture 2.jpeg" alt="Proposal Image 2"> <!-- Adjusted image src -->
+                </div>
+                <div class="image-container">
+                    <img src="picture 3.jpeg" alt="Proposal Image 3"> <!-- Adjusted image src -->
+                </div>
+                <div class="image-container">
+                    <img src="picture 4.jpg" alt="Proposal Image 4"> <!-- Adjusted image src -->
+                </div>
+                <div class="image-container">
+                    <img src="picture 5.jpg" alt="Proposal Image 5"> <!-- Adjusted image src -->
+                </div>
+                <div class="image-container">
+                    <img src="vday.png" alt="Proposal Image 6"> <!-- Adjusted image src -->
+                </div>
+                <div class="image-container">
+                    <img src="200.gif" alt="Proposal Image 7"> <!-- Adjusted image src -->
+                </div>
+                <div class="image-container">
+                    <img src="200w.gif" alt="Proposal Image 8"> <!-- Adjusted image src -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heart animations -->
+    <div class="heart"></div>
+    <div class="heart" style="left: 10%; animation-delay: 1s;"></div>
+    <div class="heart" style="left: 20%; animation-delay: 2s;"></div>
+    <div class="heart" style="left: 30%; animation-delay: 3s;"></div>
+    <div class="heart" style="left: 40%; animation-delay: 4s;"></div>
+    <div class="heart" style="left: 50%; animation-delay: 5s;"></div>
+    <div class="heart" style="left: 60%; animation-delay: 6s;"></div>
+    <div class="heart" style="left: 70%; animation-delay: 7s;"></div>
+    <div class="heart" style="left: 80%; animation-delay: 8s;"></div>
+    <div class="heart" style="left: 90%; animation-delay: 9s;"></div>
+</body>
+</html>
